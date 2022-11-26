@@ -1,0 +1,46 @@
+#header {
+    .items-group {
+      gap: 5rem;
+      #navbar {
+        ul {
+          gap: 3vw;
+          li {
+            a {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  #greeting{
+      width: 100vw;
+      overflow: hidden;
+      .mainAbout{
+          gap: 20vw;
+          img{
+              height: 30rem;
+          }
+          .opening-group{
+              gap: 3rem;
+              .opening{
+                  width: 15rem;
+                  .head{
+                      font-size: 1.75rem;
+                      
+                  }
+                  .date{
+                      font-size: 1.5rem;
+                  }
+              }
+              .descrip{
+                  h2{
+                      font-size: 1rem;
+                  }
+              }
+          }
+         
+      }
+  }
+  

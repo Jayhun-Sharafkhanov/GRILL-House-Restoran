@@ -1,0 +1,45 @@
+#header .items-group {
+  gap: 5rem;
+}
+
+#header .items-group #navbar ul {
+  gap: 3vw;
+}
+
+#header .items-group #navbar ul li a {
+  font-size: 2rem;
+}
+
+#greeting {
+  width: 100vw;
+  overflow: hidden;
+}
+
+#greeting .mainAbout {
+  gap: 20vw;
+}
+
+#greeting .mainAbout img {
+  height: 30rem;
+}
+
+#greeting .mainAbout .opening-group {
+  gap: 3rem;
+}
+
+#greeting .mainAbout .opening-group .opening {
+  width: 15rem;
+}
+
+#greeting .mainAbout .opening-group .opening .head {
+  font-size: 1.75rem;
+}
+
+#greeting .mainAbout .opening-group .opening .date {
+  font-size: 1.5rem;
+}
+
+#greeting .mainAbout .opening-group .descrip h2 {
+  font-size: 1rem;
+}
+/*# sourceMappingURL=tablet.css.map */

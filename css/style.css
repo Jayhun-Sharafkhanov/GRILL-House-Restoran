@@ -1,0 +1,283 @@
+@import url(./fonts.css);
+:root {
+  font-family: 'opensans_regular';
+  font-size: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #262626;
+}
+
+#header {
+  width: 100vw;
+  margin: 1rem 0 1rem 0;
+}
+
+#header .items-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .items-group .logo img {
+  height: 8rem;
+}
+
+#header .items-group #navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0.25rem solid #E1B838;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5vw;
+  list-style-type: none;
+}
+
+#header .items-group #navbar ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #E1B838;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+
+#header .items-group #navbar ul li a:hover {
+  -webkit-transition-property: padding;
+  transition-property: padding;
+  color: #262626;
+  padding: 0 0 2rem 0;
+  background-color: #E1B838;
+  border-radius: 0 0 100% 100%;
+}
+
+#greeting {
+  background-image: url(../assets/img/Background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
+}
+
+#greeting .mainAbout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15vw;
+}
+
+#greeting .mainAbout img {
+  height: 30rem;
+}
+
+#greeting .mainAbout .opening-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5rem;
+}
+
+#greeting .mainAbout .opening-group .opening {
+  width: 20rem;
+  border: 1px solid #E1B838;
+}
+
+#greeting .mainAbout .opening-group .opening .head {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #E1B838;
+}
+
+#greeting .mainAbout .opening-group .opening .date {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+#greeting .mainAbout .opening-group .descrip h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+#menu {
+  margin-top: 2rem;
+  background-image: url(../assets/img/Background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#menu h2.bashliq {
+  color: white;
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+  text-shadow: 0.5rem 0.5rem 0.75rem black;
+}
+
+#menu .menu-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#menu .menu-group .menu {
+  padding: 1rem 0 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+#menu .menu-group .menu .list {
+  border: 1px solid #E1B838;
+  width: 15rem;
+}
+
+#menu .menu-group .menu .list h2 {
+  text-align: left;
+  padding: 0 1.5rem;
+}
+
+#menu .menu-group .menu .list table {
+  text-align: left;
+  color: white;
+}
+
+#menu .menu-group .menu .list table td {
+  padding-left: 1rem;
+  text-align: right;
+}
+
+#menu .menu-group .menu img {
+  height: 15rem;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+#menu .menu-group .menu img:hover {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+#menu .menu-group .menu h2 {
+  background-color: #E1B838;
+}
+
+#special {
+  margin-top: 2rem;
+  background-image: url(../assets/img/Background.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#special .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#special .content .left img {
+  height: 50rem;
+}
+
+#special .content .right {
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10rem;
+}
+
+#special .content .right .disc h2 {
+  font-size: 3rem;
+  color: #E1B838;
+}
+
+#special .content .right .disc h2 span {
+  font-family: 'openSans_extrabold';
+}
+
+#special .content .right .disc h2 a {
+  color: #262626;
+  border: 0.5px solid #E1B838;
+  text-decoration: none;
+  background-color: #E1B838;
+  border-radius: 1rem;
+  padding: 0 1rem 0 1rem;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+
+#special .content .right .disc h2 a:hover {
+  background-color: #262626;
+  color: #E1B838;
+  border: 0.5px solid #E1B838;
+}
+
+#special .content .right .ending img {
+  height: 10rem;
+}
+
+#special .content .right .ending h2 {
+  font-size: 2rem;
+  color: #E1B838;
+}
+/*# sourceMappingURL=style.css.map */

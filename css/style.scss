@@ -1,0 +1,224 @@
+@import url(./fonts.css);
+
+$arxaFon: #262626;
+$esasSari: #E1B838;
+
+:root{
+    font-family: 'opensans_regular';
+    font-size: 10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $arxaFon;
+}
+#header{
+    width: 100vw;
+    margin: 1rem 0 1rem 0;
+    .items-group{
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        align-items: center;
+        .logo{
+            img{
+                height: 8rem;
+            }
+        }
+        #navbar{
+            
+            ul{
+                display: flex;
+                border: 0.25rem solid $esasSari;
+                justify-content: center;
+                align-items: center;
+                gap: 5vw;
+                list-style-type: none;
+                li{
+                    
+                    a{
+                        font-size: 2rem;
+                        text-decoration: none;
+                        text-transform: capitalize;
+                        color: $esasSari;
+                        transition-duration: 0.25s;
+                        
+                    }
+                    a:hover{
+                        transition-property: padding;
+                        color: $arxaFon;
+                        padding: 0 0 2rem 0;
+                        background-color: #E1B838;
+                        border-radius: 0 0 100% 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+#greeting{
+    background-image: url(../assets/img/Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    .mainAbout{
+        // width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15vw;
+        img{
+            height: 30rem;
+        }
+        .opening-group{
+            display: flex;
+            flex-direction: column;
+            gap: 5rem;
+            .opening{
+                width: 20rem;
+                border: 1px solid $esasSari;
+                .head{
+                    font-size: 2rem;
+                    text-align: center;
+                    text-transform: uppercase;
+                    background-color: $esasSari;
+                }
+                .date{
+                    font-size: 2rem;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: white;
+                }
+            }
+            .descrip{
+                h2{
+                    font-size: 1.3rem;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+#menu{
+    margin-top: 2rem;
+    background-image: url(../assets/img/Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h2.bashliq{
+        color: white;
+        text-align: center;
+        padding: 2rem 0 2rem 0;
+        text-shadow: 0.5rem 0.5rem 0.75rem black;
+    }
+    .menu-group{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+        .menu{
+            padding: 1rem 0 3rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 2rem;
+            text-align: center;
+
+            .list{
+                border: 1px solid $esasSari;
+                width:15rem;
+                h2{
+                    text-align: left;
+                    padding: 0 1.5rem;
+                }
+                table{
+                    text-align: left;
+                    color: white;
+                    th{
+
+                    }
+                    td{
+                        padding-left: 1rem;
+                        text-align: right;
+                    }
+                }
+            }
+            img{
+                height: 15rem;
+                transition-duration: 0.5s;
+            }
+            img:hover{
+                transform: rotate(-45deg);
+            }
+            h2{
+                background-color: $esasSari;
+            }
+        }
+    }
+}
+#special{
+    margin-top: 2rem;
+    background-image: url(../assets/img/Background.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        .left{
+            img{
+                height: 50rem;
+            }
+        }
+        .right{
+            text-align: right;
+            display: flex;
+            flex-direction: column;
+            gap: 10rem;
+            .disc{
+                h2{
+                    font-size: 3rem;
+                    color: $esasSari;
+                    span{
+                        font-family: 'openSans_extrabold';
+                    }
+                    a{
+                        color: #262626;
+                        border: 0.5px solid $esasSari;
+
+                        text-decoration: none;
+                        background-color: $esasSari;
+                        border-radius: 1rem;
+                        padding: 0 1rem 0 1rem;
+                        transition-duration: 0.25s;
+                    }
+                    a:hover{
+                        background-color: $arxaFon;
+                        color: $esasSari;
+                        border: 0.5px solid $esasSari;
+                    }
+                }
+            }
+            .ending{
+                img{
+                    height: 10rem;
+                }
+                h2{
+                    font-size: 2rem;
+                    color: $esasSari;
+                }
+            }
+            
+
+        }
+    }
+    
+}
